@@ -1,0 +1,21 @@
+{
+  "name": "food-delivery-backend",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "food-delivery-backend": "file:",
+    "mysql2": "^3.14.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  }
+}
